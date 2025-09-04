@@ -36,31 +36,33 @@ Bot de Discord completo e funcional com sistema de moderação, tickets, vendas 
 ## 🚀 Instalação Rápida
 
 ### Método 1: Script Automático
-
-Rode `node install-bot`
+\`\`\`bash
+node install-bot
+\`\`\`
 
 ### Método 2: Manual
-
-Rode `npm install`
-Depois, rode `npm run install-bot`
-Execute `npm start` para iniciar o bot
-
+\`\`\`bash
+npm install
+npm run install-bot
+\`\`\`
 
 ## 📋 Configuração
 
 1. **Configure o arquivo `.env`:**
-env
+\`\`\`env
 DISCORD_TOKEN=seu_token_aqui
 CLIENT_ID=seu_client_id_aqui
 BOT_STATUS=Assistindo: Criado por v1trixzthegod
 BOT_ACTIVITY_TYPE=Watching
 BOT_STATUS_TYPE=Idle
 WEB_PORT=3000
+\`\`\`
 
 2. **Configure gateways de pagamento por servidor:**
+\`\`\`
 /configurar-pagamento mercadopago token:SEU_TOKEN
 /configurar-pagamento abacatepay key:SUA_CHAVE
-
+\`\`\`
 
 ## 🎯 Comandos Principais
 
